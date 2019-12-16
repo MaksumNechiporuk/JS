@@ -69,10 +69,9 @@ switch(selectPlanet)
 let  digit1= parseInt(prompt("Введіть перше число:"));
 let digit2 = parseInt(prompt("Введіть друге число:"));
 let operations=["+","*","/","-"];
-let operation = prompt("Виберіть операцію: +,*,-,/")
+let operation = prompt("Виберіть операцію: +,*,-,/");
 
 switch (operation){
-
     case '+':
 document.writeln(digit1,"+",digit2,"=",digit1+digit2);
     break;
@@ -97,17 +96,9 @@ while(true)
     digit2 = parseInt(prompt("Введіть число відмінне від 0:"));
     if (digit2 != 0)
     {
-  
         document.writeln(digit1, "/", digit2, "=", digit1 / digit2);
 break;
     }}
-
 }
         break;
 }
-
-
-
-
-
-
